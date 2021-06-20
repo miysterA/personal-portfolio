@@ -765,8 +765,10 @@ home__scroll-arrow{
 .swiper-container-horizontal > .swiper-pagination-bullets{
     bottom: -2.5rem;
 }
-
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet{
+    background: var(--text-color);
+}
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     background-color: var(--first-color);
 }
 
