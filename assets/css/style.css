@@ -554,6 +554,7 @@ home__scroll-arrow{
 .qualification__button{
     background: none;
     border: none;
+    color: var(--title-color);
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     cursor: pointer;
@@ -1093,6 +1094,9 @@ home__scroll-arrow{
         margin: auto;
     }
 
+    .section__title {
+        font-size: var(--h1-font-size);
+    }
     .section{
         padding-right: 6rem 0 2rem;
     }
